@@ -1,0 +1,15 @@
+---
+manifest_version: "1"
+name: scrabblebag
+description: ~
+roles:
+  - id: scrabblebag
+    provisioning:
+      strategy: create
+      deferred: false
+    dna:
+      bundled: "../dna/scrabblebag.dna"
+      properties: ~
+      uuid: ~
+      version: ~
+      clone_limit: 0

@@ -1,0 +1,10 @@
+---
+manifest_version: "1"
+name: scrabblebag
+uuid: 00000000-0000-0000-0000-000000000000
+properties: ~
+zomes:
+  - name: scrabblebag 
+    bundled: ../../../target/wasm32-unknown-unknown/release/scrabblebag.wasm
+  - name: profiles
+    bundled: ../../../target/wasm32-unknown-unknown/release/profiles.wasm
