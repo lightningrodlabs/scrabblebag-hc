@@ -1,8 +1,8 @@
 let
-  holonixRev = "9ddfc68aaf665f13e674a5382946f2e262538abe";
+  holonixRev = "cb8eb67e55b4f291f0868bbd3439a5e6f006e49f";
   holonixPath = builtins.fetchTarball "https://github.com/holochain/holonix/archive/${holonixRev}.tar.gz";
   holonix = import (holonixPath) {
-    holochainVersionId = "v0_0_125";
+    holochainVersionId = "v0_0_127";
   };
   nixpkgs = holonix.pkgs;
 in nixpkgs.mkShell {
